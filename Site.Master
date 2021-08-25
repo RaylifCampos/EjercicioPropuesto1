@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Banco.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conversor de temperatura</title>
+</head>
+<body>
+    <h1>Calculador de cuotas</h1>&nbsp;
+<form method="POST" oninput="[monto.value * (tem.value * (1 + tem.value) ^ n.value)] / [(1 + tem.value) ^ n.value) – 1]">
+<div>
+Ingrese el Monto: <input type="number" id="monto">&nbsp;<br/><br/>
+Ingrese el Tem: <input type="number" id="tem">&nbsp;<br/><br/>
+Ingrese el numero de Cuotas: <input type="number" id="n">&nbsp;<br/><br/>
+
+<br/><br/>
+<p>Resultado: </p>&nbsp;
+<output name="resultado" for="valor"></output>
+</div>
+</form>
+</body>
+</html>
